@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 640px;
+  margin: auto;
+  background-color: #eee;
+  padding: 20px;
+  text-transform: capitalize;
+  font-family: tahoma, sans-serif;
+}
+input,
+.position {
+  font-size: 23px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  margin-bottom: 25px;
+  border-radius: 6px;
+}
+.name {
+  width: 80%;
+}
+.age {
+  width: 17%;
+}
+.salary {
+  width: 30%;
+}
+.position {
+  font-size: 20px;
+  width: 67%;
+  cursor: pointer;
+}
+*::placeholder {
+  font-size: 20px;
+}
+.button-controls {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 0 8px;
+  margin-bottom: 25px;
+}
+.button-controls span {
+  padding: 6px 0;
+  width: 110px;
+  background-color: #009688;
+  border-radius: 6px;
+  text-align: center;
+
+  cursor: pointer;
+}
+.button-controls span:hover {
+  background-color: rgb(3, 109, 96);
+}
+.result-button {
+  width: 100%;
+  font-size: 18px;
+  background-color: white;
+  border: 4px dashed #eee;
+  border-radius: 6px;
+}
+.center {
+  padding: 22px 8px;
+  text-align: center;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  cursor: pointer;
+}
+.result-button span {
+  color: #009688;
+  font-weight: bold;
+}
